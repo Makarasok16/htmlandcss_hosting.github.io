@@ -1,0 +1,99 @@
+.manu{
+    background-color: rgb(33, 115, 247);
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+.manu ul{
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+}
+.manu li{
+    float: left;
+    
+    color: white;
+    padding: 20px 16px;
+    font-family: Arial;
+    font-weight: bold;
+    cursor: pointer;
+}
+body{
+    margin: 0;
+}
+
+.manu .login{
+    float: right;
+    
+    
+}
+.manu li a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+ li a:hover:not(.active){
+    background-color: black;
+}
+.active{
+    background-color: rgb(6, 188, 127);
+}
+.content{
+    margin-top: 100px;
+}
+.content .title{
+    margin: 10px;
+}
+.content button{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(129, 72, 236);
+    border: solid;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pic{
+    background-color: rgb(205, 205, 205);
+}
+.pic img{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    background-size: cover;
+}
+section{
+    display: flex;
+    width: 100%;
+
+}
+nav{
+    background-color: rgb(220, 220, 220);
+    width: 40%;
+    padding: 20px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+article{
+    background-color: blanchedalmond;
+    width: 60%;
+    padding: 20px 20px;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    
+} 
+footer{
+    
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
